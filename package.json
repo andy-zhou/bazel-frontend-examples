@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Bazel frontend project examples",
   "main": "index.js",
-  "repository": "git@github.com:Yolk-HQ/bazel-frontend-examples.git",
-  "author": "Spencer Elliott <me@elliottsj.com>",
+  "repository": "git@github.com:andy-zhou/bazel-frontend-examples.git",
+  "author": "Andy Zhou <andy@arithos.com> & Spencer Elliott <me@elliottsj.com>",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
