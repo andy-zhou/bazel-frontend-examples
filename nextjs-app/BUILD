@@ -5,16 +5,14 @@ nodejs_binary(
     data = [
         "@npm//minimist",
         "@npm//next",
+        "@npm//ncp",
+        "@npm//rimraf",
     ],
     entry_point = ":next-build.js",
 )
 
-# This doesn't work; results in this error:
-#   $ bazel build :build
-#   > Build error occurred
-#   Error: > Build directory is not writeable. https://err.sh/zeit/next.js/build-dir-not-writeable
 npm_package_bin(
-    name = "build",
+    name = "nextjs_app",
     args = [
         "--src_dir",
         "$(location :src)",

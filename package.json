@@ -11,12 +11,14 @@
     "build": "bazel build //..."
   },
   "dependencies": {
-    "@bazel/bazel": "^1.2.0",
-    "@bazel/buildifier": "^0.29.0",
-    "@bazel/ibazel": "^0.10.3",
+    "@bazel/bazel": "^2.1.0",
+    "@bazel/buildifier": "^3.4.0",
+    "@bazel/ibazel": "^0.13.1",
     "minimist": "^1.2.0",
-    "next": "^9.1.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "ncp": "^2.0.0",
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2"
   }
 }
